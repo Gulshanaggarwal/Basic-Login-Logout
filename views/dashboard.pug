@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Dashboard</title>
+        style
+           include ../static/css/logout.css
+    </head>
+    <body>
+        <div id="container">
+            <h1>Hi, #{message} welcome to the dashboard!</h1>
+            <div class="logout-button">
+                <a href="/logout">LOGOUT</a>
+            </div>
+        </div>
+        script.
+           function preventBack() { window.history.forward(); }
+           setTimeout("preventBack()", 0);
+           window.onunload = function () { null };
+    </body>
+</html>

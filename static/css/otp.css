@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    flex-direction: column;
+}
+.span{
+    color: rgb(238, 181, 25);
+}
+#container p{
+    color: rgb(9, 116, 9);
+}
+.verify-form{
+    display: flex;
+    flex-direction: column;
+}
+.verify-form input{
+    border: 2px solid burlywood;
+    outline: none;
+    padding-left: 3px;
+}
+.verify{
+    background-color: burlywood;
+    color: whitesmoke;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1rem;
+    height: 35px;
+}
+.resend-form button{
+    width: 250px;
+    margin-top: 1rem;
+    height: 35px;
+    border: none;
+    background-color: rgb(150, 14, 14);
+    color: whitesmoke;
+    border-radius: 7px;
+}
